@@ -190,7 +190,10 @@ main { display: flex; flex-direction: column; }
 .cta .body { color: #d9d2c4; }
 
 .cta__content { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
-.cta__actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.cta__actions { display: flex; gap: 12px; flex-wrap: wrap; width: 100%; }
+
+.cta__form { width: 100%; }
+.cta__form iframe { width: 100%; border: 0; }
 
 .footer {
   background: #0b1426;
