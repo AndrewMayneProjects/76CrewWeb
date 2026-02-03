@@ -173,27 +173,7 @@ main { display: flex; flex-direction: column; }
 
 .card p { margin: 0; color: var(--muted); }
 
-.cta {
-  background: linear-gradient(180deg, #131f36, #0d182c);
-  color: #f5f2ea;
-  padding: 56px 0;
-  border-bottom: 1px solid #0b1426;
-}
-
-.cta .eyebrow { color: var(--gold); }
-.cta h2 {
-  color: #f5f2ea;
-  font-family: var(--font-serif);
-  margin: 0 0 12px;
-}
-
-.cta .body { color: #d9d2c4; }
-
-.cta__content { display: grid; gap: 24px; }
-.cta__actions { display: grid; gap: 16px; width: 100%; }
-
-.cta__form { width: 100%; }
-.cta__form iframe { width: 100%; min-height: 600px; border: 0; }
+/* CTA removed */
 
 .footer {
   background: #0b1426;
