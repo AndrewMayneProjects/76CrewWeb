@@ -287,6 +287,15 @@ p {
   color: var(--ink);
 }
 
+.status-copy {
+  margin-top: 0.35rem;
+  padding: 0.9rem 1rem;
+  border-left: 3px solid var(--heritage-red);
+  background: rgba(159, 66, 51, 0.06);
+  color: var(--ink);
+  max-width: 60ch;
+}
+
 .hero .program-card .lede {
   margin-bottom: 0.55rem;
 }
