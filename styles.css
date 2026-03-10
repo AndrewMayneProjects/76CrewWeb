@@ -296,28 +296,6 @@ p {
   max-width: 60ch;
 }
 
-.waitlist-preview {
-  display: grid;
-  gap: 0.7rem;
-  margin-top: 0.85rem;
-}
-
-.field-preview {
-  min-height: 54px;
-  padding: 0.95rem 1rem;
-  border: 1px solid var(--line);
-  background: rgba(252, 250, 246, 0.78);
-  color: var(--ink-soft);
-  font-family: var(--font-ui);
-  font-size: 0.9rem;
-  text-transform: none;
-  letter-spacing: 0;
-}
-
-.field-preview-tall {
-  min-height: 110px;
-}
-
 .hero .program-card .lede {
   margin-bottom: 0.55rem;
 }
